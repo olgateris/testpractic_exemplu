@@ -1,0 +1,91 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ro.pub.cs.systems.eim.testpractic"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\Olea\Desktop\eim\test_practic_model\testpractic\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Olea\Desktop\eim\test_practic_model\testpractic\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WAKE_LOCK" />
+11-->C:\Users\Olea\Desktop\eim\test_practic_model\testpractic\app\src\main\AndroidManifest.xml:5:5-68
+11-->C:\Users\Olea\Desktop\eim\test_practic_model\testpractic\app\src\main\AndroidManifest.xml:5:22-65
+12
+13    <uses-feature android:name="android.hardware.type.watch" />
+13-->C:\Users\Olea\Desktop\eim\test_practic_model\testpractic\app\src\main\AndroidManifest.xml:7:5-64
+13-->C:\Users\Olea\Desktop\eim\test_practic_model\testpractic\app\src\main\AndroidManifest.xml:7:19-61
+14
+15    <application
+15-->C:\Users\Olea\Desktop\eim\test_practic_model\testpractic\app\src\main\AndroidManifest.xml:9:5-47:19
+16        android:allowBackup="true"
+16-->C:\Users\Olea\Desktop\eim\test_practic_model\testpractic\app\src\main\AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] C:\Users\Olea\.gradle\caches\transforms-2\files-2.1\ae31cc97a3f9383e0242537d69427d3a\core-1.1.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:extractNativeLibs="false"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\Olea\Desktop\eim\test_practic_model\testpractic\app\src\main\AndroidManifest.xml:11:9-43
+21        android:label="@string/app_name"
+21-->C:\Users\Olea\Desktop\eim\test_practic_model\testpractic\app\src\main\AndroidManifest.xml:12:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\Users\Olea\Desktop\eim\test_practic_model\testpractic\app\src\main\AndroidManifest.xml:13:9-54
+23        android:supportsRtl="true"
+23-->C:\Users\Olea\Desktop\eim\test_practic_model\testpractic\app\src\main\AndroidManifest.xml:14:9-35
+24        android:testOnly="true"
+25        android:theme="@style/Theme.Testpractic" >
+25-->C:\Users\Olea\Desktop\eim\test_practic_model\testpractic\app\src\main\AndroidManifest.xml:15:9-49
+26        <uses-library
+26-->C:\Users\Olea\Desktop\eim\test_practic_model\testpractic\app\src\main\AndroidManifest.xml:16:9-18:40
+27            android:name="com.google.android.wearable"
+27-->C:\Users\Olea\Desktop\eim\test_practic_model\testpractic\app\src\main\AndroidManifest.xml:17:13-55
+28            android:required="false" />
+28-->C:\Users\Olea\Desktop\eim\test_practic_model\testpractic\app\src\main\AndroidManifest.xml:18:13-37
+29
+30        <!--
+31               Set to true if your app is Standalone, that is, it does not require the handheld
+32               app to run.
+33        -->
+34        <meta-data
+34-->C:\Users\Olea\Desktop\eim\test_practic_model\testpractic\app\src\main\AndroidManifest.xml:24:9-26:36
+35            android:name="com.google.android.wearable.standalone"
+35-->C:\Users\Olea\Desktop\eim\test_practic_model\testpractic\app\src\main\AndroidManifest.xml:25:13-66
+36            android:value="true" />
+36-->C:\Users\Olea\Desktop\eim\test_practic_model\testpractic\app\src\main\AndroidManifest.xml:26:13-33
+37
+38        <activity android:name="ro.pub.cs.systems.eim.testpractic.MainActivity" >
+38-->C:\Users\Olea\Desktop\eim\test_practic_model\testpractic\app\src\main\AndroidManifest.xml:30:9-36:20
+38-->C:\Users\Olea\Desktop\eim\test_practic_model\testpractic\app\src\main\AndroidManifest.xml:30:19-47
+39            <intent-filter>
+39-->C:\Users\Olea\Desktop\eim\test_practic_model\testpractic\app\src\main\AndroidManifest.xml:31:13-35:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\Olea\Desktop\eim\test_practic_model\testpractic\app\src\main\AndroidManifest.xml:32:17-69
+40-->C:\Users\Olea\Desktop\eim\test_practic_model\testpractic\app\src\main\AndroidManifest.xml:32:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\Olea\Desktop\eim\test_practic_model\testpractic\app\src\main\AndroidManifest.xml:34:17-77
+42-->C:\Users\Olea\Desktop\eim\test_practic_model\testpractic\app\src\main\AndroidManifest.xml:34:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity
+45-->C:\Users\Olea\Desktop\eim\test_practic_model\testpractic\app\src\main\AndroidManifest.xml:38:9-46:20
+46            android:name="ro.pub.cs.systems.eim.testpractic.SecondaryActivity"
+46-->C:\Users\Olea\Desktop\eim\test_practic_model\testpractic\app\src\main\AndroidManifest.xml:39:13-46
+47            android:label="@string/title_activity_secondary" >
+47-->C:\Users\Olea\Desktop\eim\test_practic_model\testpractic\app\src\main\AndroidManifest.xml:40:13-61
+48            <intent-filter>
+48-->C:\Users\Olea\Desktop\eim\test_practic_model\testpractic\app\src\main\AndroidManifest.xml:31:13-35:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->C:\Users\Olea\Desktop\eim\test_practic_model\testpractic\app\src\main\AndroidManifest.xml:32:17-69
+49-->C:\Users\Olea\Desktop\eim\test_practic_model\testpractic\app\src\main\AndroidManifest.xml:32:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->C:\Users\Olea\Desktop\eim\test_practic_model\testpractic\app\src\main\AndroidManifest.xml:34:17-77
+51-->C:\Users\Olea\Desktop\eim\test_practic_model\testpractic\app\src\main\AndroidManifest.xml:34:27-74
+52            </intent-filter>
+53        </activity>
+54    </application>
+55
+56</manifest>
